@@ -1,0 +1,15 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <a (click)="onShown()">Open Contact Slideout</a>
+    </div>
+    <div class="col-md-8">
+      <form action="">
+        <app-contact-slide *ngIf="isShown"
+          [isShown111] = 'isShown'
+           (sendRecord) = "getRecord($event)"></app-contact-slide>
+      </form>
+    </div>
+  </div>
+</div>

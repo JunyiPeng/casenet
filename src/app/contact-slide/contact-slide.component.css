@@ -1,0 +1,17 @@
+#row1 {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+#row2 {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+#row3 {
+  border-left: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#formInfo {
+  padding-left: 20px;
+  padding-right: 100px;
+}
